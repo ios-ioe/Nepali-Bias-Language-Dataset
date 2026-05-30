@@ -1,0 +1,85 @@
+{
+  "default": {
+    "description": "A multilingual dataset for detecting bias in text, labeled with multiple bias categories including gender, regional, caste, religion, appearance, social status, political, age, and disability bias. This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).",
+    "citation": "Add your citation here",
+    "homepage": "https://github.com/your-org/bias-labeled-dataset",
+    "license": "cc-by-4.0",
+    "features": {
+      "text": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "gender": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "regional": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "caste": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "religion": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "appearance": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "socialstatus": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "ambiguity": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "political": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "age": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "disability": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "none": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "comment": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "id": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "splits": {
+      "train": {
+        "name": "train",
+        "num_bytes": 696470,
+        "num_examples": 1362
+      },
+      "validation": {
+        "name": "validation",
+        "num_bytes": 149406,
+        "num_examples": 292
+      },
+      "test": {
+        "name": "test",
+        "num_bytes": 148606,
+        "num_examples": 293
+      }
+    },
+    "download_size": 994482,
+    "dataset_size": 994482
+  }
+}
