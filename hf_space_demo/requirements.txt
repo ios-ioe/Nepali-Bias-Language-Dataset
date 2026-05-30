@@ -1,0 +1,7 @@
+gradio
+transformers
+torch
+datasets
+huggingface_hub
+scikit-learn
+numpy
