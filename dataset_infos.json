@@ -1,8 +1,8 @@
 {
   "default": {
     "description": "A multilingual dataset for detecting bias in text, labeled with multiple bias categories including gender, regional, caste, religion, appearance, social status, political, age, and disability bias. This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).",
-    "citation": "Add your citation here",
-    "homepage": "https://github.com/your-org/bias-labeled-dataset",
+    "citation": "citation file provided in the repository",
+    "homepage": "https://github.com/ios-ioe/Nepali-Bias-Language-Dataset.git",
     "license": "cc-by-4.0",
     "features": {
       "text": {
